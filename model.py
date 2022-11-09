@@ -38,7 +38,6 @@ close_short_order = {
 }
 
 def get_order_model(order, stop_price):
-
     if order == 1:
         stop_market_long_order = {
             "symbol": coinPair,
