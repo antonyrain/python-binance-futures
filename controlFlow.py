@@ -35,7 +35,6 @@ while i == 1:
                     print("Try again!")
                     time.sleep(0.2)
                     client.new_order(**model.close_short_order)
-
                 print(txt.shortHedge)
                 functions.get_balance()
 
@@ -48,7 +47,6 @@ while i == 1:
                     print("Try again!")
                     time.sleep(0.2)
                     client.new_order(**model.close_long_order)
-
                 print(txt.longHedge)
                 functions.get_balance()
 
@@ -68,7 +66,7 @@ while i == 1:
                 except Exception as e:
                     print(e)
                     print("Try again!")
-                print(txt.longHedge)
+                print(txt.hedgeLongOrder)
                 functions.get_balance()
 
             elif order == "hgs":

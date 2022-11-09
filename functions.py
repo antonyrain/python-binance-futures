@@ -37,9 +37,10 @@ def get_mark_price(symbol):
     return res["markPrice"]
 
 def round_step_size(quantity, size):
-    quantity = Decimal(str(quantity))
+    quantity = Decimal(quantity)
     return float(quantity - quantity % Decimal(size))
 
+#Stop-limit prices
 tick_size = float(get_tick_size(coinPair))
 def stop_price(side, base):
     open_position_entry_price = get_entry_price(coinPair, side)
@@ -61,6 +62,7 @@ def stop_price(side, base):
         stop_long_price_sized = round_step_size(stop_long_price, tick_size)
         return stop_long_price_sized
 
+#Stop-limit orders
 def stop_order(side):
     if side == "long":
         price = str(stop_price("short", "position_price")),
