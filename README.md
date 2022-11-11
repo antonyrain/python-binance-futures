@@ -11,19 +11,19 @@ How to run the program:
 
 -- To create a virtual environment use the commands:
 
-py -m venv env
+> py -m venv env
 
 Tutorial: https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#creating-a-virtual-environment
 
 -- To activate a virtual environment use the command:
 
-.\env\Scripts\activate
+> .\env\Scripts\activate
 
 __________________________________________________________________
 
 -- You’re in your virtual environment and you can install packages:
 
-py -m pip install -r requirements.txt
+> py -m pip install -r requirements.txt
 __________________________________________________________________
 
 !!!  Probably you will get an ERROR: Failed building wheel for twisted-iocpsupport.
@@ -35,11 +35,11 @@ __________________________________________________________________
 
 -- Copy "Twisted" file to the program folder and use the command:
 
-pip install twisted_iocpsupport‑1.0.2‑[python version and your windows system]
+> pip install twisted_iocpsupport‑1.0.2‑[python version and your windows system]
 
 -- Try to install all dependencies again:
 
-py -m pip install -r requirements.txt
+> py -m pip install -r requirements.txt
 
 __________________________________________________________________
 
@@ -49,4 +49,4 @@ __________________________________________________________________
 
 -- To run the program use the command:
 
-py main.py
+> py main.py
