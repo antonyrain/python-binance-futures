@@ -19,23 +19,29 @@ Tutorial: https://packaging.python.org/en/latest/guides/installing-using-pip-and
 
 .\env\Scripts\activate
 
+__________________________________________________________________
+
 -- You’re in your virtual environment and you can install packages:
 
 py -m pip install -r requirements.txt
+__________________________________________________________________
 
-!!! Probably you will get an ERROR: Failed building wheel for twisted-iocpsupport.
+!  Probably you will get an ERROR: Failed building wheel for twisted-iocpsupport.
 
-??? If this error appears, download and install Twisted (an event-driven networking engine): twisted_iocpsupport‑1.0.2‑[python version and your windows system] from page:
+?  If this error appears, download and install Twisted (an event-driven networking engine): twisted_iocpsupport‑1.0.2‑[python version and your windows system] from page:
 
 https://www.lfd.uci.edu/~gohlke/pythonlibs/#twisted
+__________________________________________________________________
 
--- Copy file to the program folder and use the command:
+-- Copy "Twisted" file to the program folder and use the command:
 
 pip install twisted_iocpsupport‑1.0.2‑[python version and your windows system]
 
 -- Try to install all dependencies again:
 
 py -m pip install -r requirements.txt
+
+__________________________________________________________________
 
 -- Go to the Binance Account and open the API management page.
 
