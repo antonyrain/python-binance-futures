@@ -9,7 +9,7 @@ How to run the program:
 
 -- To change directory use the command ‘cd’ like this ‘cd /home/user/python_projects’’ and navigate to your project folder.
 
--- To create a virtual environment use the commands:
+-- To create a virtual environment use the command:
 
 > py -m venv env
 
