@@ -26,9 +26,9 @@ __________________________________________________________________
 py -m pip install -r requirements.txt
 __________________________________________________________________
 
-!  Probably you will get an ERROR: Failed building wheel for twisted-iocpsupport.
+!!!  Probably you will get an ERROR: Failed building wheel for twisted-iocpsupport.
 
-?  If this error appears, download and install Twisted (an event-driven networking engine): twisted_iocpsupport‑1.0.2‑[python version and your windows system] from page:
+???  If this error appears, download and install Twisted (an event-driven networking engine): twisted_iocpsupport‑1.0.2‑[python version and your windows system] from page:
 
 https://www.lfd.uci.edu/~gohlke/pythonlibs/#twisted
 __________________________________________________________________
