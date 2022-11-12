@@ -5,6 +5,8 @@ Visit: https://dvlpmnt.gumroad.com/l/python-binance-futures-market-trader
 
 How to run the program:
 
+https://youtu.be/dx8WT0iNldQ
+
 -- Unzip or copy files to specific folder.
 
 -- To start the program, we have to open the command line.
